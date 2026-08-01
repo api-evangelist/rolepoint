@@ -1,7 +1,24 @@
 aid: rolepoint
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rolepoint.png
 name: RolePoint
-description: RolePoint is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: RolePoint was an employee referral, internal mobility, and talent-acquisition
+  software company that helped recruitment teams source, refer, and redeploy talent
+  through referral programs and internal mobility marketplaces, with a "Connect" API
+  layer for integrating into ATS/HRIS systems such as iCIMS. The company was acquired
+  by Jobvite in 2019 and folded into the Jobvite Talent Acquisition Suite; the standalone
+  rolepoint.com domain no longer resolves and no independent developer portal or API
+  surface remains reachable. It is tracked here as a 500 Global portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/rolepoint/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,21 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: acquired-by-jobvite-2019; rolepoint.com DNS SERVFAIL (no live host)
+x-acquired-by: jobvite
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Recruiting
+- Talent Acquisition
+- Employee Referrals
+- Internal Mobility
+- Human Resources
+- HR Technology
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,8 @@ maintainers:
 common:
 - type: Website
   url: https://rolepoint.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
