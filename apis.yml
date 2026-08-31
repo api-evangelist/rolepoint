@@ -59,6 +59,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/jobvite/
+  name: Jobvite
+  x-relationship: acquired
+  x-evidence: "The company was acquired by Jobvite in 2019 and folded into the Jobvite Talent Acquisition Suite; the standalone rolepoint."
 - type: Website
   url: https://rolepoint.com
 x-enrichment:
