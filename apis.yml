@@ -23,13 +23,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rolepoint.png
 name: RolePoint
-description: RolePoint was an employee referral, internal mobility, and talent-acquisition
-  software company that helped recruitment teams source, refer, and redeploy talent
-  through referral programs and internal mobility marketplaces, with a "Connect" API
-  layer for integrating into ATS/HRIS systems such as iCIMS. The company was acquired
-  by Jobvite in 2019 and folded into the Jobvite Talent Acquisition Suite; the standalone
-  rolepoint.com domain no longer resolves and no independent developer portal or API
-  surface remains reachable. It is tracked here as a 500 Global portfolio company.
+description: RolePoint was an employee referral, internal mobility, and talent-acquisition software company
+  that helped recruitment teams source, refer, and redeploy talent through referral programs and internal
+  mobility marketplaces, with a "Connect" API layer for integrating into ATS/HRIS systems such as iCIMS.
+  The company was acquired by Jobvite in 2019 and folded into the Jobvite Talent Acquisition Suite; the
+  standalone rolepoint.com domain no longer resolves and no independent developer portal or API surface
+  remains reachable. It is tracked here as a 500 Global portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/rolepoint/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -42,7 +41,7 @@ x-status-reason: acquired-by-jobvite-2019; rolepoint.com DNS SERVFAIL (no live h
 x-acquired-by: jobvite
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 tags:
 - Company
 - Recruiting
@@ -52,6 +51,7 @@ tags:
 - Human Resources
 - HR Technology
 - Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -63,7 +63,8 @@ common:
   url: https://apis.io/providers/jobvite/
   name: Jobvite
   x-relationship: acquired
-  x-evidence: "The company was acquired by Jobvite in 2019 and folded into the Jobvite Talent Acquisition Suite; the standalone rolepoint."
+  x-evidence: The company was acquired by Jobvite in 2019 and folded into the Jobvite Talent Acquisition
+    Suite; the standalone rolepoint.
 - type: Website
   url: https://rolepoint.com
 x-enrichment:
